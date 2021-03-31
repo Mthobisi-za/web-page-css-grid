@@ -2,7 +2,10 @@ body {
     margin: 0;
     font-family: fantasy;
     width: 100%;
-    background: #ddd;
+  /*  background: #ddd;*/
+    background: url("media/pin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .profile_holder {
@@ -56,7 +59,7 @@ body {
     color: rgb(61, 59, 59);
     font-family: sans-serif;
     display: block;
-    background: rgba(128, 125, 125, 0.521);
+    background: rgba(128, 125, 125, 0.801);
 }
 
 .flex {
@@ -114,7 +117,7 @@ body {
 .lang {
     width: 80%;
     height: auto;
-    background: rgba(128, 125, 125, 0.521);
+    background: rgba(128, 125, 125, 0.644);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -191,9 +194,9 @@ body {
 
 .lang_laptop {
     display: block;
-    width: 80%;
+    width: 90%;
     height: auto;
-    background: rgba(128, 125, 125, 0.521);
+    background: rgba(128, 125, 125, 0.829);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -263,6 +266,9 @@ body {
 /*----media-----*/
 
 @media(max-width: 500px) {
+    body{
+        font-size: smaller;
+    }
     .history_laptop {
         display: none;
     }
@@ -363,7 +369,7 @@ body {
     }
     .lang {
         display: block;
-        width: 80%;
+        width: 90%;
         height: auto;
         background: rgba(128, 125, 125, 0.521);
         margin-top: 0;
@@ -422,6 +428,9 @@ body {
     
 .history_laptop {
     display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .div1 {
@@ -449,6 +458,9 @@ body {
     margin-right: auto;
 }
 .lap{
+    display: none;
+}
+.k{
     display: none;
 }
 }

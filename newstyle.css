@@ -1,14 +1,28 @@
+.k{
+    margin-top: 2%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: sans-serif;
+    background: rgba(128, 125, 125, 0.61);
+    display: block;
+}
+.hk{
+    margin-left: 5%;
+    font-size: medium;
+}
 .lap{
-    margin-top: 5%;
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     display: grid;
-    grid-column-gap: 1%;
-    grid-template-columns: auto auto auto;
+    grid-column-gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
     font-family: sans-serif;
-    background: rgba(128, 125, 125, 0.521);
+    font-size: smaller;
+   
 }
 .holder_1{
     width: 100%;
